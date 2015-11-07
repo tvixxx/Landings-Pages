@@ -1,0 +1,72 @@
+/*
+*
+Common
+*
+*/
+
+body {
+	font-size: 14px;
+	font-family: 'Roboto-Regular', Arial sans-serif;
+	font-weight: 300;
+	color: #fff;
+	min-width: 940px;
+	max-width: 1920px;
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*
+*
+Header
+*
+*/
+.main-header {
+	background: #272727 url(../images/HeaderBG/main-header-bg.png) ;
+	background-repeat: no-repeat;
+	min-height: 800px;
+}
+.main-header {
+	color: #fff;
+}
+
+
+
+
+
+
+
+.content {
+	background-color: #fff;
+	color: #b7b7b7;
+	margin: 0;
+	padding: 0;
+}
+.content .content-slider,
+.content .content-comments {
+	background-color: #faf9f9;
+}
+
+
+
+
+
+
+
+
+.main-footer {
+	min-height: 300px;
+	background-color: #141414;
+}
+
