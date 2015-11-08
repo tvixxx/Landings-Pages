@@ -224,6 +224,8 @@ Content
 /* Content 6steps */
 .content-steps {
 	background-color: #fff;
+	font-size: 0;
+	margin-bottom: 20px;
 }
 .border-step {
 	border-top: 1px solid #EBEBEB;
@@ -268,18 +270,71 @@ Content
 	margin: 0 auto;
 	padding: 0 40px;
 }
-.step-description {
+.steps-description {
 	display: block;
+	margin-bottom: 0;
 }
 .step-block {
 	display: inline-block;
 	width: 300px;
-	margin-right: 16px;
+	min-height: 10px;
+	margin-right: 20px;
+	background-color: #fff;
+	vertical-align: top;
+	margin-bottom: 75px;
 }
 .step-block:nth-child(3n) {
 	margin-right: 0;
 }
+.decoration-step {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background-image: url(../images/sprite/sprite-icons.png);
+	background-repeat: no-repeat;
+}
+.step-block h3 {
+	font-size: 18px;
+	line-height: 24px;
+	max-width: 220px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 700;
+	vertical-align: top;
+	margin: 25px 0;
+	color: #464646;
+	vertical-align: top;
+}
+.step-block p {
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 300;
+	margin-top: 25px;
+	margin-bottom: 0;
+	vertical-align: top;
+}
+.decoration-step-home {
+	background-position: 0 -247px;
+}
+.decoration-step-unique {
+	background-position: 0 -381px;
+}
+.decoration-step-payment {
+	background-position: 0 -515px;
 
+}
+.decoration-step-days {
+	background-position: 0 -649px;
+
+}
+.decoration-step-thumbs {
+	background-position: 0 -783px;
+
+}
+.decoration-step-heart {
+	background-position: 0 -917px;
+
+}
 
 
 
