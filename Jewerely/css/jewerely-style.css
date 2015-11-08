@@ -321,20 +321,206 @@ Content
 }
 .decoration-step-payment {
 	background-position: 0 -515px;
-
 }
 .decoration-step-days {
 	background-position: 0 -649px;
-
 }
 .decoration-step-thumbs {
 	background-position: 0 -783px;
-
 }
 .decoration-step-heart {
 	background-position: 0 -917px;
-
 }
+/* Slider */
+.content-slider {
+	font-size: 0;
+	background-color: #faf9f9;
+	margin-bottom: 95px;
+}
+.slider-column-left {
+	float: left;
+	width: 400px;
+	margin: 100px 80px 100px 0;
+}
+.slider-column-left img {
+	width: 400px;
+	height: 400px;
+}
+.slider-column-right {
+	float: right;
+	width: 460px;
+	margin-top: 100px;
+}
+.slider-column-right h2 {
+	font-size: 30px;
+	line-height: 42px;
+	font-family: "Roboto-Bold", Arial, sans-serif;
+	font-weight: bold;
+	color: #464646;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+.slider-column-right .icon-devide {
+	margin: 0 0 30px 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	min-height: 10px;
+	text-decoration: none;
+	opacity: 1;
+	background: url(../images/sprite/sprite-icons.png) no-repeat;
+	background-position: 0 -168px;
+}
+.slider-column-right p {
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.slider-column-right .slider-content-btn {
+	display: inline-block;
+	color: #464646;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	outline: none;
+	min-width: 86px;
+	padding: 20px 38px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	border: 2px solid #464646;
+	border-radius: 4px;
+	vertical-align: top;
+}
+.slider-content-btn:hover {
+	color: #fff;
+	background-color: #e92121;
+	-webkit-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	transition: all ease-out 0.3s;
+	border: 2px solid #e92121;
+}
+/* Content Choose */
+.content-choose {
+	background-color: #fff;
+	font-size: 0;
+	margin-bottom: 95px;
+}
+.choose-column-left {
+	float: left;
+	width: 260px;
+}
+.choose-column-left h2 {
+	font-size: 48px;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-family: "Roboto", Arial , sans-serif;
+	font-weight: 700;
+	margin-top: 75px;
+	color: #464646;
+}
+.choose-column-right {
+	float: right;
+	width: 540px;
+	margin-left: 100px;
+}
+.choose-block {
+	display: inline-block;
+	width: 220px;
+	vertical-align: top;
+	margin-right: 100px;
+	margin-bottom: 70px;
+	vertical-align: top;
+}
+.choose-block:nth-child(2n) {
+	margin-right: 0;
+}
+.choose-block h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "Roboto-Bold", Arial, sans-serif;
+	font-weight: 700;
+	color: #464646;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.choose-block p {
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 300;
+	color: #b7b7b7;
+	margin-bottom: 0;
+}
+
+/* Content Work */
+.content-work {
+	background-color: #fff;
+	font-size: 0;
+	margin-bottom: 100px;
+}
+.work-images {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.work-images img {
+	width: 235px;
+	height: 235px;
+}
+.work-column-right  {
+ 	float: right;
+ 	width: 270px;
+ 	margin-left: 10px;
+ 	margin-right: 150px;
+}
+.work-column-right h2 {
+	font-size: 48px;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-family: "Roboto", Arial , sans-serif;
+	font-weight: 700;
+	margin-top: 65px;
+	color: #464646;
+}
+.work-column-right .icon-devide {
+	margin: 0 0 30px 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	min-height: 10px;
+	text-decoration: none;
+	opacity: 1;
+	background: url(../images/sprite/sprite-icons.png) no-repeat;
+	background-position: 0 -168px;
+}
+.work-description-column-left {
+	float: left;
+	width: 460px;
+}
+.work-description-column-right {
+	float: right;
+	width: 460px;
+	margin-left: 20px;
+}
+.work-description-column-left p,
+.work-description-column-right p {
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 300;
+	color: #b7b7b7;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+
+
 
 
 
