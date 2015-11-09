@@ -1,4 +1,3 @@
-/* Fix some css minors. CSS3 no minors */
 /*
 *
 Common
@@ -6,7 +5,7 @@ Common
 */
 body {
 	font-size: 14px;
-	font-family: "Roboto-Regular", Arial sans-serif;
+	font-family: "Roboto-Regular", Arial, sans-serif;
 	font-weight: 300;
 	color: #fff;
 	min-width: 940px;
