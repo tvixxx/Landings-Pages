@@ -1,4 +1,4 @@
-/* Якорь */
+/* Якорь на jQuery */
 
 $(document).ready(function(){
    $('a[href*=#]').bind("click", function(e){   //выбираем эл-ты якоря и прикрепляем обработчки события
